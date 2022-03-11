@@ -1,0 +1,7 @@
+/* Aromia Script*/
+@font-face {
+  font-family: "Aromia Script";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/aromia-script.otf") format("opentype");
+}

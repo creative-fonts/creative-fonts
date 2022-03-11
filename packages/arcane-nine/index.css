@@ -1,0 +1,7 @@
+/*Arcane Nine*/
+@font-face {
+  font-family: "Arcane Nine";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/arcane-nine.ttf") format("truetype");
+}

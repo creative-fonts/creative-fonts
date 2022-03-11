@@ -1,0 +1,7 @@
+/*Choko*/
+@font-face {
+  font-family: "Choko";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/choko.ttf") format("truetype");
+}

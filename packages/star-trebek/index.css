@@ -1,0 +1,7 @@
+/*Star Trebek*/
+@font-face {
+  font-family: "Star Trebek";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/star-trebek.ttf") format("truetype");
+}
