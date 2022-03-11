@@ -1,0 +1,7 @@
+/* Excluded*/
+@font-face {
+  font-family: "Excluded";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/excluded.ttf") format("truetype");
+}

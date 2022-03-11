@@ -1,0 +1,47 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.visible-logo img {
+  height: 70px;
+}
+
+.about-box {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background: white;
+  font-family: "Arima Madurai", cursive;
+  font-size: 1.5rem;
+  margin: 4rem;
+  /* border: 2px solid rgb(87, 86, 86); */
+  border-radius: 10px;
+  max-height: 60vh;
+  width: 40vw;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+.about-para {
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+  .about-box {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .about-box {
+    padding: 10px;
+    margin: 2rem;
+    width: 80vw;
+    font-size: 0.8rem;
+  }
+}

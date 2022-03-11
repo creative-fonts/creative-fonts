@@ -1,0 +1,21 @@
+/* ::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(122, 122, 122, 0.568);
+  border-radius: 10px;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+} */

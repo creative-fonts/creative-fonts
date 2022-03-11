@@ -1,0 +1,7 @@
+/* Edge of the galaxy*/
+@font-face {
+  font-family: "Edge of the galaxy";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/edge-of-the-galaxy-regular.otf") format("opentype");
+}

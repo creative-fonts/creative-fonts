@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Sigmar One", cursive;
+}
+
+.heading h2 {
+  font-size: 2vw;
+  margin-bottom: 2vh;
+}
+.heading h1 {
+  background: linear-gradient(
+    to right,
+    rgb(231, 9, 131),
+    rgb(240, 166, 247),
+    rgb(152, 45, 252)
+  );
+  background-size: 200% 200%;
+  animation: rainbow 5s ease-in-out infinite;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 8vw;
+  text-align: center;
+  transition: color 0.2s ease-in-out;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .main {
+    margin-top: 20vh;
+  }
+}

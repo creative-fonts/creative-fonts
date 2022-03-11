@@ -1,0 +1,7 @@
+/* Harry P*/
+@font-face {
+  font-family: "Harry P";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/harry-p.ttf") format("truetype");
+}

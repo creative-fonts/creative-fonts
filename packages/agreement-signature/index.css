@@ -1,0 +1,7 @@
+/* Agreement Signature*/
+@font-face {
+  font-family: "Agreement Signature";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/agreement-signature.otf") format("opentype");
+}

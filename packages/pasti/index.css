@@ -1,0 +1,7 @@
+/* Pasti*/
+@font-face {
+  font-family: "Pasti";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/pasti.otf") format("opentype");
+}

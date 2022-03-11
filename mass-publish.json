@@ -1,0 +1,6 @@
+{
+  "packages": ["packages/"],
+  "ignoreExtension": [],
+  "commitMessage": "chore: release new versions",
+  "commitFrom": "ddbc43394ee8cab9180e9233800f50f3f662463e"
+}

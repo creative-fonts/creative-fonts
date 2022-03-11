@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+/* scrollbar */
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 7px;
+  background: rgba(122, 122, 122, 0.568);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  width: 7px;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+@media only screen and (max-width: 450px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: "Arima Madurai", cursive;
+}
+.logo p {
+  font-size: 3rem;
+  font-family: "Edge Of The Galaxy";
+}
+.right-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.right-nav p {
+  display: inline;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ul a {
+  color: rgb(48, 48, 48);
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+}
+
+.right-nav img {
+  margin-right: 25px;
+  cursor: pointer;
+}
+.active,
+ul a:hover {
+  /* border: 2px solid rgb(50, 149, 189); */
+  background-color: rgb(70, 198, 248);
+  border-radius: 10px;
+}
+
+.dark-mode {
+  color: whitesmoke;
+  background-image: url("../src/images/night-1.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  transition: background 1s;
+}
+
+.light-mode {
+  background-image: url("../src/images/day-1.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  color: rgb(48, 48, 48);
+  transition: background 1s;
+}
+
+@media only screen and (max-width: 680px) {
+  .right-nav p {
+    display: inline;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 0px;
+  }
+  .right-nav img {
+    margin-right: 5px;
+    height: 35px;
+  }
+  .logo {
+    display: none;
+  }
+  .navbar {
+    justify-content: right;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .right-nav {
+    padding: 5px;
+  }
+  .right-nav p {
+    font-size: 10px;
+  }
+}

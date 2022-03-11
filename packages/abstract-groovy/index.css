@@ -1,0 +1,7 @@
+/* Abstract Groovy*/
+@font-face {
+  font-family: "Abstract Groovy";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/abstract-groovy.ttf") format("truetype");
+}

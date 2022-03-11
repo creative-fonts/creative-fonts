@@ -1,0 +1,7 @@
+/* Alloy-Ink */
+@font-face {
+  font-family: "Alloy Ink";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/alloy-ink.otf") format("opentype");
+}

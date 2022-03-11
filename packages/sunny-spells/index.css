@@ -1,0 +1,7 @@
+/* sunny-spells*/
+@font-face {
+  font-family: "Sunny Spells";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/sunny-spells.otf") format("opentype");
+}

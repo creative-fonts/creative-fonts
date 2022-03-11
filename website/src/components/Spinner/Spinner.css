@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Nunito:wght@600&display=swap");
+.spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+}
+
+.loading {
+  font-family: "Nunito Sans";
+  color: black;
+  padding: 10px;
+}

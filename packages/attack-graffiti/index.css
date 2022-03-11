@@ -1,0 +1,7 @@
+/* Attack Graffiti*/
+@font-face {
+  font-family: "Attack Graffiti";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/attack-graffiti.otf") format("opentype");
+}

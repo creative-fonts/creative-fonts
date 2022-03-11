@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Nunito:wght@600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap"); */
+
+.font-heading {
+  /* font-family: "Sigmar One", cursive; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.preview-open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+  text-align: center;
+}
+hr {
+  margin-bottom: 8px;
+  border: 2px solid rgba(70, 198, 248, 0.37);
+  background-color: rgba(70, 198, 248, 0.37);
+}
+.slider {
+  margin-top: 25px;
+}
+
+.preview img {
+  margin-left: 15px;
+}
+
+.font-preview input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgba(70, 198, 248, 0.24);
+  outline: none;
+  background-color: rgb(232, 250, 250);
+}
+
+#preview-font-head {
+  /* margin-left: 15%; */
+  /* width: 65%; */
+  font-size: 2.7rem;
+  padding: 0;
+}
+
+.sub-details {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* justify-content: left; */
+}
+
+.sub-details li {
+  list-style-type: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+a {
+  /* text-decoration: none; */
+  color: black;
+}
+
+.command {
+  background-color: rgba(70, 198, 248, 0.37);
+  padding: 5px;
+  /* border-radius: 5px; */
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  /* justify-content: center; */
+}
+h3 {
+  /* font-family: "Sigmar One", cursive; */
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .font-heading {
+    flex: 1;
+    font-size: 1rem;
+  }
+  .preview-open {
+    margin-top: 20vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .fonts {
+    flex: 1;
+  }
+}

@@ -1,0 +1,7 @@
+/* Really Free*/
+@font-face {
+  font-family: "Really Free";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/really-free.ttf") format("truetype");
+}

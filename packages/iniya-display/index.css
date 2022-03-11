@@ -1,0 +1,7 @@
+/* Iniya Display*/
+@font-face {
+  font-family: "Iniya Display";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/iniya-display.otf") format("opentype");
+}

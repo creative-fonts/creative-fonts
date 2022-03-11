@@ -1,0 +1,7 @@
+/* Mangabey */
+@font-face {
+  font-family: "Mangabey";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/mangabey.otf") format("opentype");
+}

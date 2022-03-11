@@ -1,0 +1,27 @@
+{
+  "name": "@creative-fonts/harry-p",
+  "version": "1.0.5",
+  "description": "Self-host the Harry P font in a bundled package to beautify development.",
+  "main": "index.css",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "web",
+    "font",
+    "font family",
+    "creative",
+    "css",
+    "front-end"
+  ],
+  "author": "bhuvnesh <bhuvnesh875@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/creative-fonts/creative-fonts/tree/master/packages/harry-p#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creative-fonts/creative-fonts.git"
+  },
+  "dependencies": {
+    "ajv": "^8.10.0"
+  }
+}

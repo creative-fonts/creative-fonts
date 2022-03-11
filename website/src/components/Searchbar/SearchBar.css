@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: whitesmoke;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+  width: 25vw;
+  border: 3px solid #cf11e0;
+  font-family: "Arima Madurai", cursive;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.search-bar input {
+  font-size: 0.9vw;
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+  color: black;
+  margin-left: 4px;
+  width: 25vw;
+  font-family: "Arima Madurai", cursive;
+  font-weight: 400;
+}
+
+.dataResult {
+  margin-top: 5px;
+  font-family: "Nunito", sans-serif;
+  width: 25.5vw;
+  max-height: 200px;
+  background-color: whitesmoke;
+  font-weight: 400;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  overflow: hidden;
+  overflow-y: auto;
+  border-radius: 0 0 10px 10px;
+  border: 3px solid #cf11e0;
+  font-family: "Arima Madurai", cursive;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.dataResult::-webkit-scrollbar {
+  width: 5px;
+}
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.dataItem p {
+  margin-left: 10px;
+}
+
+.dataResult a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dataResult a:hover {
+  background-color: rgba(115, 215, 255, 0.616);
+  /* background-color: lightgrey; */
+}
+
+::placeholder {
+  opacity: 0.7;
+  font-family: "Arima Madurai", cursive;
+  font-weight: 200;
+}
+@media only screen and (min-width: 750px) and (max-width: 1280px) {
+  .dataResult {
+    font-size: 1.4vw;
+    max-height: 150px;
+  }
+  .dataResult .dataItem {
+    height: 40px;
+  }
+  .search-bar {
+    padding: 0px 5px 0px 5px;
+  }
+  .search-bar input {
+    font-size: 1.4vw;
+  }
+  .search-bar img {
+    height: 28px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .search-bar {
+    width: 40vw;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+  }
+  .dataResult {
+    width: 42vw;
+    font-size: 2.5vw;
+  }
+  .dataResult .dataItem {
+    height: 50px;
+  }
+  .search-bar img {
+    height: 15px;
+  }
+  .search-bar input {
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .search-bar {
+    border: 1.5px solid #cf11e0;
+  }
+  .dataResult .dataItem {
+    height: 25px;
+  }
+  .dataResult {
+    border: 1.5px solid #cf11e0;
+  }
+  .dataResult::-webkit-scrollbar {
+    width: 3px;
+  }
+}

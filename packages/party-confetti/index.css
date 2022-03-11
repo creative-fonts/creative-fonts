@@ -1,0 +1,7 @@
+/* Party Confetti*/
+@font-face {
+  font-family: "Party Confetti";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fontfile/party-confetti.ttf") format("truetype");
+}

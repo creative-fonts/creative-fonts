@@ -1,0 +1,36 @@
+{
+  "name": "creative-fonts",
+  "version": "1.0.0",
+  "description": "Self-host the creative fonts in bundled packages to beautify developement.",
+  "main": "index.css",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "web",
+    "font",
+    "font family",
+    "creative",
+    "css",
+    "front-end"
+  ],
+  "author": "bhuvnesh <bhuvnesh875@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/creative-fonts/creative-fonts#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creative-fonts/creative-fonts.git"
+  },
+  "dependencies": {
+    "ajv": "^8.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/creative-fonts/creative-fonts/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "mass-publish": "^1.1.0"
+  }
+}
