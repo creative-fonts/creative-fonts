@@ -41,6 +41,7 @@ function App() {
                 <a
                   href="https://github.com/creative-fonts/creative-fonts"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="https://img.icons8.com/color/48/000000/github--v3.png"

@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Nunito:wght@600&display=swap");
-/* @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap"); */
 
 .font-heading {
   /* font-family: "Sigmar One", cursive; */
@@ -26,6 +25,15 @@ hr {
 
 .preview img {
   margin-left: 15px;
+}
+
+#copy-btn {
+  font-family: "Arima Madurai", cursive;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 2px;
+  border: none;
+  background-color: rgba(70, 198, 248, 0);
 }
 
 .font-preview input {

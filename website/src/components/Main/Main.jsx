@@ -1,4 +1,4 @@
-import { React, useState, useRef } from "react";
+import { React } from "react";
 import "./main.css";
 import SearchBar from "../Searchbar/SearchBar";
 import fonts from "../Preview/fonts.json";

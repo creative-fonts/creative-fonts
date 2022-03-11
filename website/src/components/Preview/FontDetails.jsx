@@ -6,6 +6,8 @@ import "./fontdetails.css";
 import { GoLinkExternal } from "react-icons/go";
 import { HeadProvider } from "react-head";
 
+import CopyButton from "../CopyButton/CopyButton";
+
 const FontDetails = ({ fontDetail, loading }) => {
   const { fontId } = useParams();
   // console.log("Hello world");
@@ -21,10 +23,9 @@ const FontDetails = ({ fontDetail, loading }) => {
   const baseUrlDownload = "https://cdn.jsdelivr.net/npm";
 
   function DownloadCss(fontId) {
-    // `${baseUrlDownload}/@creative-fonts/${fontId}/${fontId}.${"otf"}`
-
     const url = `${baseUrlDownload}/@creative-fonts/${fontId}/index.css`;
     const fonturl = `${baseUrlDownload}/@creative-fonts/${fontId}`;
+
     // console.log(fonturl);
 
     try {
@@ -54,6 +55,12 @@ const FontDetails = ({ fontDetail, loading }) => {
   const handleSliderChange = (event, newValue) => {
     setFontSize(newValue);
   };
+
+  //commands
+  const command1 = `npm install @creative-fonts/${fontId}`;
+  const command2 = `yarn add @creative-fonts/${fontId}`;
+  const command3 = `import "@creative-fonts/${fontId}"`;
+  const command4 = `body { font-family: "${fontDetail.fontName}"; }`;
 
   if (loading) return <Spinner message={"Loading font details..."} />;
   else if (!fontId)
@@ -122,16 +129,25 @@ const FontDetails = ({ fontDetail, loading }) => {
             <li>
               <p>Install the dependency using:</p>
             </li>
-            <p className="command">{`npm install @creative-fonts/${fontId}`}</p>
+            <p className="command">
+              {command1}
+              <CopyButton text={command1} />
+            </p>
             OR
-            <p className="command">{`yarn add @creative-fonts/${fontId}`}</p>
+            <p className="command">
+              {command2}
+              <CopyButton text={command2} />
+            </p>
             <li>
               <p>
                 Within your app entry file or site component, import the font
                 like:
               </p>
             </li>
-            <p className="command">{`import "@creative-fonts/${fontId}"`}</p>
+            <p className="command">
+              {command3}
+              <CopyButton text={command3} />
+            </p>
             <li>
               <p>
                 Now, you can reference the font name in a CSS stylestyle sheet,
@@ -139,7 +155,8 @@ const FontDetails = ({ fontDetail, loading }) => {
               </p>
             </li>
             <p className="command">
-              {`body { font-family: "${fontDetail.fontName}"; }`}
+              {command4}
+              <CopyButton text={command4} />
             </p>
           </ul>
           <h3>License</h3>

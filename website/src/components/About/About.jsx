@@ -15,8 +15,7 @@ function About() {
             the coolest fonts available on the internet in form of bundled
             packages which can be used directly for development. Creative Fonts
             converts the raw files of fonts into small npm packages so that they
-            can be installed locally via terminal. This reduces the font loading
-            time.
+            can be installed locally via terminal.
             <br />
             All the fonts available on creative fonts are licensed as FREE for
             commercial use by their creators.

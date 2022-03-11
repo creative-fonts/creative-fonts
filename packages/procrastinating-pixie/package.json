@@ -1,6 +1,6 @@
 {
   "name": "@creative-fonts/procrastinating-pixie",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "Self-host the Procrastinating Pixie font in a bundled package to beautify development.",
   "main": "index.css",
   "publishConfig": {

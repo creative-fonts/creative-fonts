@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import FontDetails from "./FontDetails";
 import "./preview.css";
-import { NavLink, Routes, Route, BrowserRouter } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
 import fonts from "./fonts.json";
