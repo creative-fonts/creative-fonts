@@ -44,8 +44,12 @@ const Preview = () => {
 
         <div className="font-list">
           {fonts.slice(0, fonts.length).map((font) => (
-            <NavLink to={`/preview/${font.fontId}`} key={font.fontName}>
-              <div className="font-name">{font.fontName}</div>
+            <NavLink
+              to={`/preview/${font.fontId}`}
+              key={font.fontName}
+              className="font-name"
+            >
+              <div>{font.fontName}</div>
             </NavLink>
           ))}
         </div>

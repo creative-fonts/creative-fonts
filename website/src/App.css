@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
 
 /* scrollbar */
 
@@ -38,7 +38,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  font-family: "Arima Madurai", cursive;
+  /* font-family: "Arima Madurai", cursive; */
+  font-family: "Karla", sans-serif;
 }
 .logo p {
   font-size: 3rem;
@@ -54,7 +55,7 @@
 .right-nav p {
   display: inline;
   margin-right: 20px;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -62,7 +63,7 @@
 ul a {
   color: rgb(48, 48, 48);
   text-decoration: none;
-  padding: 5px 15px 5px 15px;
+  padding: 8px 15px 8px 15px;
 }
 
 .right-nav img {

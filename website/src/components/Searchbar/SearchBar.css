@@ -15,7 +15,7 @@
   border-radius: 20px;
   width: 25vw;
   border: 3px solid #cf11e0;
-  font-family: "Arima Madurai", cursive;
+
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -27,13 +27,14 @@
   color: black;
   margin-left: 4px;
   width: 25vw;
-  font-family: "Arima Madurai", cursive;
+  /* font-family: "Arima Madurai", cursive; */
+  font-family: "Karla", sans-serif;
   font-weight: 400;
 }
 
 .dataResult {
   margin-top: 5px;
-  font-family: "Nunito", sans-serif;
+
   width: 25.5vw;
   max-height: 200px;
   background-color: whitesmoke;
@@ -43,7 +44,7 @@
   overflow-y: auto;
   border-radius: 0 0 10px 10px;
   border: 3px solid #cf11e0;
-  font-family: "Arima Madurai", cursive;
+  font-family: "Karla", sans-serif;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 

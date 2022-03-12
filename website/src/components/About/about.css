@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   color: black;
+  font-family: "Karla", sans-serif;
 }
 
 .visible-logo img {
@@ -16,15 +17,15 @@
   text-align: center;
   flex-direction: column;
   background: white;
-  font-family: "Arima Madurai", cursive;
   font-size: 1.5rem;
   margin: 4rem;
   /* border: 2px solid rgb(87, 86, 86); */
   border-radius: 10px;
-  max-height: 60vh;
+  max-height: 50vh;
   width: 40vw;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   overflow: auto;
+  margin-top: 12%;
 }
 
 .about-para {
@@ -36,11 +37,17 @@
     font-size: 1rem;
   }
 }
+@media only screen and (min-width: 551px) and (max-width: 991px) {
+  .about-box {
+    width: 60vw;
+    font-size: 0.8rem;
+  }
+}
 
 @media only screen and (max-width: 550px) {
   .about-box {
-    padding: 10px;
-    margin: 2rem;
+    padding: 20px;
+    margin-top: 30%;
     width: 80vw;
     font-size: 0.8rem;
   }

@@ -8,7 +8,7 @@ const Main = () => {
     <div className="main">
       <div className="heading">
         <h1>Creative-fonts</h1>
-        <h2>"Beautifying Development"</h2>
+        <h2>"Beautifying Web Development"</h2>
       </div>
       <SearchBar data={fonts} />
     </div>
