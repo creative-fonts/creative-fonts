@@ -19,20 +19,17 @@ const Preview = () => {
       setLoading(true);
       const dir = `${baseUrlDownload}/@creative-fonts/${fontId}/metadata.json`;
 
-      try {
-        fetch(dir)
-          .then((res) => {
-            // console.log(res);
-            return res.json();
-          })
-          .then((data) => {
-            // console.log(data);
-            setfontDetail(data);
-            setLoading(false);
-          });
-      } catch (e) {
-        // console.log(e);
-      }
+      const fetchData = async () => {
+        const resp = await fetch(dir);
+        if (!resp.ok) {
+          const message = `An error has occured: ${resp.status}`;
+          throw new Error(message);
+        }
+        var data = await resp.json();
+        setfontDetail(data);
+        setLoading(false);
+      };
+      fetchData().catch(console.error);
       // const fonturl = fetchUrl(fontId);
     }
   }, [fontId]);

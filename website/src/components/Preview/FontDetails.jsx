@@ -22,30 +22,21 @@ const FontDetails = ({ fontDetail, loading }) => {
 
   const baseUrlDownload = "https://cdn.jsdelivr.net/npm";
 
-  function DownloadCss(fontId) {
+  async function DownloadCss(fontId) {
     const url = `${baseUrlDownload}/@creative-fonts/${fontId}/index.css`;
     const fonturl = `${baseUrlDownload}/@creative-fonts/${fontId}`;
 
     // console.log(fonturl);
 
-    try {
-      fetch(url)
-        .then((res) => {
-          // console.log(res)
-          return res.text();
-        })
-        .then((data) => {
-          data = data.replace(
-            /url\("\.\/(fontfile\/.*?)"\)/,
-            `url('${fonturl}/$1')`
-          );
-          // console.log(data);
-          setFontCss(data);
-          // setLoading(false);
-        });
-    } catch (e) {
-      console.log(e);
+    const resp = await fetch(url);
+    if (!resp.ok) {
+      const message = `An error has occured: ${resp.status}`;
+      throw new Error(message);
     }
+    var data = await resp.text();
+    data = data.replace(/url\("\.\/(fontfile\/.*?)"\)/, `url('${fonturl}/$1')`);
+
+    setFontCss(data);
   }
 
   useEffect(() => {
