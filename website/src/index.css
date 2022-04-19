@@ -19,3 +19,23 @@
     width: 5px;
   }
 } */
+
+:root {
+  --font-color: black;
+  --background: #2e9cca;
+  --primary: #25274d;
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --preview-bg: whitesmoke;
+}
+
+[data-theme="dark"] {
+  --font-color: #ffff;
+  --background: #25274d;
+  --primary: #2e9cca;
+  --shadow-color: rgba(255, 255, 255, 0.5);
+  --preview-bg: #29648a;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Padauk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap");

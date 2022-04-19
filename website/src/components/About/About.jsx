@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import logo from "../../images/favicon.png";
+import logo from "../../images/cf.png";
 function About() {
   return (
     <>

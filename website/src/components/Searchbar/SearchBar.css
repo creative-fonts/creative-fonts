@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
-
 .search {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Anek Tamil", sans-serif;
+  margin-top: 2rem;
 }
 .search-bar {
   display: flex;
@@ -12,29 +12,26 @@
   justify-content: left;
   background-color: whitesmoke;
   padding: 5px 10px 5px 10px;
-  border-radius: 20px;
+  border-radius: 15px;
   width: 25vw;
-  border: 3px solid #cf11e0;
-
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  /* border: 4px solid var(--primary); */
+  box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.5);
 }
 
 .search-bar input {
-  font-size: 0.9vw;
+  font-size: 1vw;
   outline: none;
   border: none;
   background-color: whitesmoke;
   color: black;
   margin-left: 4px;
   width: 25vw;
-  /* font-family: "Arima Madurai", cursive; */
-  font-family: "Karla", sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
 }
 
 .dataResult {
   margin-top: 5px;
-
   width: 25.5vw;
   max-height: 200px;
   background-color: whitesmoke;
@@ -43,9 +40,8 @@
   overflow: hidden;
   overflow-y: auto;
   border-radius: 0 0 10px 10px;
-  border: 3px solid #cf11e0;
-  font-family: "Karla", sans-serif;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  font-family: "Jost", sans-serif;
 }
 
 .dataResult::-webkit-scrollbar {
@@ -70,13 +66,13 @@
 }
 
 .dataResult a:hover {
-  background-color: rgba(115, 215, 255, 0.616);
-  /* background-color: lightgrey; */
+  background-color: #2e9cca;
+  color: white;
 }
 
 ::placeholder {
   opacity: 0.7;
-  font-family: "Arima Madurai", cursive;
+
   font-weight: 200;
 }
 @media only screen and (min-width: 750px) and (max-width: 1280px) {
@@ -121,13 +117,11 @@
 
 @media only screen and (max-width: 450px) {
   .search-bar {
-    border: 1.5px solid #cf11e0;
   }
   .dataResult .dataItem {
     height: 25px;
   }
   .dataResult {
-    border: 1.5px solid #cf11e0;
   }
   .dataResult::-webkit-scrollbar {
     width: 3px;

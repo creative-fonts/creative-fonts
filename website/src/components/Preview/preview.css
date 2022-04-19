@@ -9,11 +9,12 @@
   border-radius: 10px;
   width: 60vw;
   height: 70vh;
-  background-color: rgb(255, 255, 255);
+  margin-top: 5vh;
+  background-color: #29648a;
   padding: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-  font-family: "Karla", sans-serif;
-  color: black;
+  /* font-family: "Padauk", sans-serif; */
+  font-family: "Jost", sans-serif;
 }
 .preview-main {
   flex: 0.7;
@@ -23,6 +24,7 @@
   border-radius: 10px;
   padding: 0px 30px 0px 30px;
   overflow: auto;
+  color: black;
 }
 
 .preview-main::-webkit-scrollbar {
@@ -53,20 +55,27 @@ h2 {
 .font-list a {
   text-decoration: none;
   margin: 3px;
+  /* color: var(--font-color); */
 }
 
 .font-name {
   font-size: 1.1rem;
-  padding: 11px;
+  padding: 8px;
   width: 15vw;
   text-align: center;
   border-radius: 10px;
   /* margin: 3px; */
   cursor: pointer;
+  color: white;
 }
 
+.font-list > .active {
+  color: white !important;
+  background-color: #25274d;
+}
 .font-name:hover {
-  background-color: rgb(70, 198, 248);
+  background-color: #25274d;
+  color: white !important;
 }
 
 @media only screen and (max-width: 992px) {
@@ -85,6 +94,7 @@ h2 {
     font-size: 1rem;
   }
 }
+
 @media only screen and (max-width: 650px) {
   .preview {
     height: 75vh;

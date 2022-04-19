@@ -1,31 +1,29 @@
 .about {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   color: black;
-  font-family: "Karla", sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 .visible-logo img {
-  height: 70px;
+  height: 8vh;
 }
 
 .about-box {
   padding: 30px;
-  display: flex;
-  align-items: center;
   text-align: center;
-  flex-direction: column;
-  background: white;
+  background: #29648a;
   font-size: 1.5rem;
-  margin: 4rem;
+
   /* border: 2px solid rgb(87, 86, 86); */
   border-radius: 10px;
   max-height: 50vh;
   width: 40vw;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   overflow: auto;
-  margin-top: 12%;
+  margin-top: 12vh;
+  color: white;
 }
 
 .about-para {

@@ -1,5 +1,3 @@
-import { useState } from "react";
-import DarkModeToggle from "react-dark-mode-toggle";
 import "./App.css";
 import Main from "./components/Main/Main";
 import About from "./components/About/About";
@@ -9,17 +7,13 @@ import "@creative-fonts/edge-of-the-galaxy";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
-
   return (
     <>
       <BrowserRouter>
-        <div className={darkMode ? "dark-mode" : "light-mode"}>
+        <div>
           <div className="app">
             <div className="navbar">
-              <div className="logo">
-                <p>{"{ c-f }"}</p>
-              </div>
+              <div className="logo"></div>
               <div className="right-nav">
                 <ul>
                   <p>
@@ -48,12 +42,6 @@ function App() {
                     alt="github"
                   />
                 </a>
-                <DarkModeToggle
-                  onChange={setDarkMode}
-                  checked={darkMode}
-                  size={70}
-                  id="toggle-sm"
-                />
               </div>
             </div>
             <Routes>
