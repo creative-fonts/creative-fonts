@@ -37,9 +37,8 @@
   padding: 10px;
   font-family: "Anek Tamil", sans-serif;
 }
-.logo p {
-  font-size: 3rem;
-  font-family: "Edge Of The Galaxy";
+.logo > img {
+  height: 5vh;
 }
 .right-nav {
   display: flex;

@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@creative-fonts/edge-of-the-galaxy": "^1.0.2",
     "@material-ui/core": "^4.12.3",
     "@mui/material": "^5.4.4",
     "@testing-library/jest-dom": "^5.16.2",
@@ -21,7 +20,6 @@
     "react-scripts": "5.0.0",
     "styled-components": "^5.3.3",
     "typescript": "^4.6.2",
-    "use-local-storage": "^2.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

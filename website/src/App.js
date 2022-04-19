@@ -3,6 +3,7 @@ import Main from "./components/Main/Main";
 import About from "./components/About/About";
 import Preview from "./components/Preview/Preview";
 import "@creative-fonts/edge-of-the-galaxy";
+import logo from "./images/cf.png";
 
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 
@@ -13,7 +14,9 @@ function App() {
         <div>
           <div className="app">
             <div className="navbar">
-              <div className="logo"></div>
+              <div className="logo">
+                <img src={logo} alt="" />
+              </div>
               <div className="right-nav">
                 <ul>
                   <p>
