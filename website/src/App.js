@@ -2,7 +2,6 @@ import "./App.css";
 import Main from "./components/Main/Main";
 import About from "./components/About/About";
 import Preview from "./components/Preview/Preview";
-import "@creative-fonts/edge-of-the-galaxy";
 import logo from "./images/cf.png";
 
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
